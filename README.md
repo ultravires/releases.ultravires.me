@@ -1,6 +1,6 @@
-# [releases.antfu.me](https://releases.antfu.me)
+# [releases.ultravires.me](https://releases.ultravires.me)
 
-A page for Anthony's recent releases.
+A page for Xenon's recent releases.
 
 Deployed via [NuxtHub](https://hub.nuxt.com)
 
@@ -10,6 +10,7 @@ You can fork it to create your own version, or [use this template to deploy a pa
 
 - [Sébastien Chopin's contributions](https://prs.atinux.com/)
 - [Leon Fong's contributions](https://pr.leonfong.me/)
+- [Anthony Fu is Releasing...](https://releases.antfu.me/)
 
 ## License
 
