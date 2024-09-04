@@ -1,8 +1,8 @@
 import process from 'node:process'
 
-const name = process.env.GITHUB_NAME || 'Anthony Fu'
-const login = process.env.GITHUB_LOGIN || 'antfu'
-const website = process.env.WEBSITE_DOMAIN || 'https://releases.antfu.me'
+const name = process.env.GITHUB_NAME || 'ultravires'
+const login = process.env.GITHUB_LOGIN || 'ultravires'
+const website = process.env.WEBSITE_DOMAIN || 'https://releases.ultravires.me'
 
 export default defineNuxtConfig({
   modules: [
