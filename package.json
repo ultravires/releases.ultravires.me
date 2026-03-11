@@ -28,6 +28,7 @@
     "@pinia/nuxt": "^0.5.5",
     "@unocss/eslint-config": "^66.6.6",
     "@unocss/nuxt": "^66.6.6",
+    "@upstash/redis": "^1.36.4",
     "@vueuse/nuxt": "^14.2.1",
     "consola": "^3.4.2",
     "eslint": "^9.39.4",
