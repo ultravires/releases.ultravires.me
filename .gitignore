@@ -3,7 +3,7 @@ node_modules
 dist
 .output
 .nuxt
-.netlify
+.wrangler
 .env
 .idea/
 .data

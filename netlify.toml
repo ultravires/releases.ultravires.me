@@ -4,7 +4,11 @@ command = "pnpm run build"
 
 [build.environment]
 NODE_VERSION = "20"
-NITRO_PRESET = "netlify"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
 
 [[redirects]]
 from = "https://release.ultravires.me/*"

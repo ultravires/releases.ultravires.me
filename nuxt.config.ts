@@ -25,6 +25,10 @@ export default defineNuxtConfig({
     kv: true,
   },
 
+  nitro: {
+    preset: 'cloudflare-module',
+  },
+
   experimental: {
     renderJsonPayloads: true,
     typedPages: true,
@@ -71,5 +75,5 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
-  compatibilityDate: '2024-08-14',
+  compatibilityDate: '2024-09-19',
 })
