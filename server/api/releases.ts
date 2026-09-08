@@ -27,7 +27,7 @@ export default defineLazyEventHandler(async () => {
 
   // The GitHub `/events` API only returns the latest 300 events (3 pages)
   // Thus here we use KV to store the previous data to persist the history for a longer time
-  let infos: ReleaseInfo[] = (await kv.get(KV_KEY) as ReleaseInfo[] | null) || []
+  let infos: ReleaseInfo[] = (await kv.get(KV_KEY).catch(() => null) as ReleaseInfo[] | null) || []
 
   // Migrate old data
   infos.forEach((item) => {
