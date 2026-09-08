@@ -126,8 +126,8 @@ export default defineLazyEventHandler(async () => {
     if (infos.length > LIMIT)
       infos.slice(0, LIMIT)
 
-    // Save back to KV
-    kv.set(KV_KEY, infos)
+    // Save back to KV (best-effort; non-fatal if the storage backend is unavailable)
+    kv.set(KV_KEY, infos).catch(() => {})
 
     return {
       infos,
