@@ -22,7 +22,9 @@ export default defineNuxtConfig({
   },
 
   hub: {
-    kv: true,
+    kv: {
+      namespaceId: 'd7eae4b881cc42b7aaf328421fb369bd',
+    },
   },
 
   nitro: {
